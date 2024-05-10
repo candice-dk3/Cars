@@ -1,0 +1,70 @@
+p ~ table{
+    border: 2px burlywood solid;
+    margin: auto;
+    text-align: center;
+}
+
+h2{
+    color: red;
+}
+a{
+    text-decoration: none;
+    padding: 1rem;
+    color: aliceblue;
+}
+nav{
+    background-color: black;
+    text-align: center;
+}
+#main{
+    margin: 30px;
+    text-align: center;
+}
+aside >p{
+    border: dotted dimgrey 10px;
+}
+aside + .firstBtn, .secondBtn{
+    color: cornflowerblue;
+}
+p ~ article{
+    color:red;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 800;
+}
+h3:hover{
+    background-color: yellow;
+    padding: 2rex;
+}
+a:active{
+    color: purple;
+}
+tr:first-child{
+    background-color: yellowgreen;
+}
+
+tr td:hover{
+    color:crimson
+}
+p:first-child{
+    color: blue;
+}
+p i:first-child{
+    color:peru;
+}
+::selection{
+    color:greenyellow
+}
+.paragraph::first-line{
+    color: red;
+}
+.paragraph::first-letter{
+    color: blue;
+}
+article::before{
+    content: url(https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif)
+}
+article::after{
+    content: url(https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif);
+}
